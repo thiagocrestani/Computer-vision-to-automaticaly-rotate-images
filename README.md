@@ -32,3 +32,15 @@ prediction data stored in an array, to ultimately write csv document in the disk
 it rotates the image as predicted by the neural network using the ImageDataGenerator() method and 
 saves the images in the test_corrected folder. Finally, 
 the system stores the corrected image data and writes it to a numpy array, allowing future imports.
+# Data Results
+After running the scripts the corrected images will be available in the test_corrected folder, however, you can download the software corrected images folder via the link https://1drv.ms/u/s!Au7LN9Kj-TAtlUIMGMB-XmpnUFdJ?e=d9bghV.
+# Detailed steps for implementation
+- Download the files https://1drv.ms/u/s!Au7LN9Kj-TAtlUN0xnmDuklOp4J5?e=TPDCcC and https://1drv.ms/u/s!Au7LN9Kj-TAtlUEeFR2PCU-KkrI3?e=O68P17 and unzip on the root of the project.
+- Run the separateclasses.py script.
+- Run the TrainNN.py script
+#
+Outputs:
+- The dataset folder will be created with the data of the organized train.rotfaces folder.
+- The corrected_images.csv file will be created with the predictions of images from the test folder.
+- The test_corrected folder with the upside oriented images will be created.
+- A numpy array will be created with the correctly oriented images.
