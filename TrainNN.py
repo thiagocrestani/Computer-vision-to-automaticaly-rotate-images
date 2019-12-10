@@ -112,7 +112,7 @@ for file in os.listdir('test'):
 #export array of the predicitons in CSV
 df = pd.DataFrame(predictions, 
                columns =['fn', 'label']) 
-df.to_csv('corrected_images.csv', index = None)
+df.to_csv('test.preds.csv', index = None)
 
 #save array of images in Numpy
 correct_images = np.asarray(corrected_images)
